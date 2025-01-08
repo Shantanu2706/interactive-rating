@@ -17,12 +17,18 @@ function App() {
   }
 
   return (
+    <>
     <div className="card">
       {isSubmitted ?
         <ThankYou rating={rating} /> :
         <Rating rating={rating} handleClick={handleClick} handleSubmit={handleSubmit} />
       }
     </div>
+      <div className="attribution">
+        Challenge by Frontend Mentor. Coded by Shantanu Pimprikar
+    </div>
+    </>
+    
   );
 }
 

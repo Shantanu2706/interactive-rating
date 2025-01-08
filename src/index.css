@@ -21,6 +21,12 @@ button.submit-button:hover{
   background-color: white;
 }
 
+.attribution{
+  color: hsl(228, 34%, 66%);
+  text-align: center;
+  margin-top: 50px;
+}
+
 .card {
   width: 339px;
   height: 342px;
